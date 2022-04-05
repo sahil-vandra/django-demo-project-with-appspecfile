@@ -27,7 +27,7 @@ permissions:
       - file
 hooks:
   AfterInstall:
-    - location: scripts/install_dependencies
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
     - location: scripts/start_server

@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "You are in install_dependencies.sh file"
 sudo yum update
-sudo easy_install pip
+sudo yum -y install python-pip
 sudo pip install virtualenv
 cd /home/ec2-user
 virtualenv environment

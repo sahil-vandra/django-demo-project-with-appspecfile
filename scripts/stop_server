@@ -1,1 +1,1 @@
-pkill supervisord
+sudo pkill supervisord

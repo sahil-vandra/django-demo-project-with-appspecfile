@@ -7,3 +7,4 @@ cd /home/ec2-user
 virtualenv environment
 source environment/bin/activate
 sudo pip install -r requirements.txt
+sudo pip install django --upgrade 

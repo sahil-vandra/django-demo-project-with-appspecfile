@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "You are in install_dependencies.sh file"
 sudo yum update
 sudo easy_install pip
 sudo pip install virtualenv

@@ -27,7 +27,7 @@ permissions:
       - file
 hooks:
   AfterInstall:
-    - location: scripts/install_dependencies
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
     - location: scripts/start_server
@@ -37,4 +37,8 @@ hooks:
   ApplicationStop:
     - location: scripts/stop_server
       timeout: 300
+<<<<<<< HEAD
       runas: root
+=======
+      runas: ec2-user
+>>>>>>> ab569c9b6efd7e422004e93a2c7c072dd4b5f1eb
